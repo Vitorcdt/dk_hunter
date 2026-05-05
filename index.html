@@ -2999,7 +2999,6 @@
         }
       }
 
-
       /* ──── GLOBAL GOLD COIN RAIN ──── */
       .gold-coin-rain {
         position: fixed;
@@ -3119,6 +3118,10 @@
         .bcard {
           min-height: unset;
         }
+
+        .hero .mascote {
+          z-index: 1 !important;
+        }
       }
 
       @media (prefers-reduced-motion: reduce) {
@@ -3155,9 +3158,7 @@
       .hero .hero-grid {
         z-index: 4 !important;
       }
-      .hero .mascote {
-        z-index: 5 !important;
-      }
+      /* .hero .mascote z-index controlled by media queries below */
     </style>
   </head>
   <body>
